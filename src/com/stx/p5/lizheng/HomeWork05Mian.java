@@ -2,13 +2,13 @@ package com.stx.p5.lizheng;
 
 public class HomeWork05Mian {
     public static void main(String[] args) {
-        Student beautfulguy=new Student("大漂亮",20221234,"女",20,80);
+        Student beautfulGuy=new Student("大漂亮",20221234,"女",20,80);
         //默认是大漂亮的数据，利用set方法来变成自己的
-        beautfulguy.setName("李政");
-        beautfulguy.setId(2019210859);
-        beautfulguy.setSex("男");
-        beautfulguy.setAge(22);
-        beautfulguy.setScore(100);
-        beautfulguy.show();
+        beautfulGuy.setName("李政");
+        beautfulGuy.setId(2019210859);
+        beautfulGuy.setSex("男");
+        beautfulGuy.setAge(22);
+        beautfulGuy.setScore(100);
+        beautfulGuy.show();
     }
 }
