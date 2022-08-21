@@ -14,47 +14,41 @@ public class Student {
             this.sex=sex;
             this.score=score;
         }
-        //获取数据
-    public void setId(int id) {
-            this.id = id;
-        }
+        //因为是私有属性所以用getset方法获取数据
 
     public int getId(){
             return id;//用来返回参数以此类推
         }
-
-    public void setName(String name) {
-        this.name = name;
+    public void setId(int id) {
+        this.id = id;
     }
-
     public String getName() {
         return name;
     }
-
-    public void setAge(int age){
-        this.age=age;
+    public void setName(String name) {
+        this.name = name;
     }
-
     public int getAge(){
         return age;
     }
-
-    public void setSex(String sex) {
-        this.sex = sex;
+    public void setAge(int age){
+        this.age=age;
     }
-
     public String getSex() {
         return sex;
     }
-
+    public void setSex(String sex) {
+        this.sex = sex;
+    }
+    public int getScore() {
+        return score;
+    }
     public void setScore(int score) {
         this.score = score;
     }
 
-    public int getScore() {
-        return score;
-    }
-   void show(){
+
+   void show(){//用于展示
             String level="有误";
 if(score>80&&score<=100){
     level="A";
