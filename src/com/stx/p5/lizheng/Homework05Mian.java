@@ -1,6 +1,6 @@
 package com.stx.p5.lizheng;
 
-public class HomeWork05Mian {
+public class Homework05Mian {
     public static void main(String[] args) {
         Student beautfulGuy=new Student("大漂亮",20221234,"女",20,80);
         //默认是大漂亮的数据，利用set方法来变成自己的

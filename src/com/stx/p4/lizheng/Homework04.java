@@ -1,6 +1,6 @@
 package com.stx.p4.lizheng;
 
-public class homework04 {
+public class Homework04 {
     public static void main(String args[]){
         int countN=0,countO=0;//整俩变量用来统计出现几次
         char x='n';
