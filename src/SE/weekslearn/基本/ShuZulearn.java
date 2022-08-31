@@ -1,4 +1,4 @@
-package SE;
+package SE.weekslearn.基本;
 
 public class ShuZulearn {
     public static void main(String[] args) {

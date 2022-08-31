@@ -1,4 +1,4 @@
-package SE.test.method;
+package SE.weekslearn.week2.method;
 
 public class 长方形 {
     public static void main(String[] args) {

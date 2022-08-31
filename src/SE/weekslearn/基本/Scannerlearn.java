@@ -1,4 +1,4 @@
-package SE;
+package SE.weekslearn.基本;
 
 import java.util.Scanner;
 

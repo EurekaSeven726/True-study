@@ -1,4 +1,4 @@
-package SE.test.method;
+package SE.weekslearn.week2.method;
 
 import java.util.Scanner;
 
